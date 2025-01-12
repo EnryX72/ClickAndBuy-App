@@ -1,28 +1,11 @@
-import {StyleSheet, Text, View} from "react-native";
+import React from "react";
+import { View } from "react-native";
+import styles from "@/app/styles.js"
 
-export default function carrelloScreen() {
+export default function CarrelloScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>
-        Carrello
-      </Text>
+
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#25292e',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    color: '#fff',
-  },
-  button: {
-    fontSize: 20,
-    textDecorationLine: 'underline',
-    color: '#fff',
-  },
-});
